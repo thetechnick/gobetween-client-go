@@ -1,0 +1,8 @@
+[api]
+enabled = true
+bind = ":8888"
+cors = false
+
+[api.basic_auth]   # (optional) Enable HTTP Basic Auth
+login = "admin"    # HTTP Auth Login
+password = "1111"  # HTTP Auth Password
